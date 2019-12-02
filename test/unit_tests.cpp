@@ -46,6 +46,7 @@ TEST(sudoku, case1) {
     Sudoku sudoku(grid);
     sudoku.print();
     sudoku.solve();
+    sudoku.print();
     ASSERT_TRUE(sudoku==answer);
 }
 
